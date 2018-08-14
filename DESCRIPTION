@@ -1,0 +1,17 @@
+Package: Rfolding
+Type: Package
+Title: The Folding Test of Unimodality
+Version: 1.0
+Authors@R: c(
+    person("Alban", "Siffer", email="alban.siffer@irisa.fr", role= c("aut","cre")),
+    person("Amossys", email="contact@amossys.fr", role = c("cph", "fnd")))
+Description: The basic algorithm to perform the folding test of unimodality. 
+    Given a dataset X (d dimensional, n samples), the test checks whether
+    the distribution of the data are rather unimodal or rather multimodal. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat,MASS,knitr,rmarkdown
+Imports: stats
+VignetteBuilder: knitr
